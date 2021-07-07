@@ -2,7 +2,7 @@
   <main>
       <ul>
           <li v-for="(item,index) in navMain" :key="index">
-              <img :src="item.img" alt="ciao">
+              <img :src="item.img" alt="">
               <a href="item.url">{{item.text}}</a>
           </li>
       </ul>

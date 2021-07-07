@@ -6,7 +6,7 @@
       <MainBotton/>
     </main>
     <footer>
-      <!--<FooterTop/>-->
+      <FooterTop/>
       <!--<FooterBotton/>-->
     </footer>
   </div>
@@ -16,7 +16,7 @@
 import Header from './components/Header.vue';
 import MainTop from './components/MainTop.vue';
 import MainBotton from './components/MainBotton.vue';
-/*import FooterTop from './components/FooterTop.vue';*/
+import FooterTop from './components/FooterTop.vue';
 /*import FooterBotton from './components/FooterBotton.vue'*/
 
 export default {
@@ -25,7 +25,7 @@ export default {
     Header,
     MainTop,
     MainBotton,
-    /*FooterTop,*/
+    FooterTop,
     /*FooterBotton*/
   }
 }
