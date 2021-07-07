@@ -39,7 +39,7 @@ header{
         li{
             display: inline-block;
             margin-right: 20px;
-            padding: 28px 0;
+            padding: 38px 0;
 
             &:hover{
                 border-bottom: 5px solid #0282F9;

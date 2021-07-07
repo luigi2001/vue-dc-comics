@@ -10,36 +10,11 @@
 </template>
 
 <script>
+import NavMain from '@/data/ArrayNavMain.js';
 export default {
     data(){
         return{
-            navMain:[
-                {
-                    text: 'digital comics',
-                    url: '#',
-                    img: '../img/buy-comics-digital-comics.png'
-                },
-                {
-                    text: 'dc merchandise',
-                    url: '#',
-                    img: '../img/buy-comics-merchandise.png'
-                },
-                {
-                    text: 'subscription',
-                    url: '#',
-                    img: '../img/buy-comics-subscriptions.png'
-                },
-                {
-                    text: 'comic shop locator',
-                    url: '#',
-                    img: '../img/buy-comics-shop-locator.png'
-                },
-                {
-                    text: 'dc power visa',
-                    url: '#',
-                    img: '../img/buy-dc-power-visa.svg'
-                },
-            ]
+            navMain: NavMain
         }
     }
 }
@@ -60,6 +35,18 @@ main{
         li{
             display: inline-block;
             margin-right: 20px;
+
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                color: white;
+            }
+            
+            img{
+                width: 30px;
+                margin-right: 20px;
+                vertical-align: middle;
+            }
         }
     }
 }
