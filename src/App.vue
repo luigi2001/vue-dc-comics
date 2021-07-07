@@ -7,7 +7,7 @@
     </main>
     <footer>
       <FooterTop/>
-      <!--<FooterBotton/>-->
+      <FooterBotton/>
     </footer>
   </div>
 </template>
@@ -17,7 +17,7 @@ import Header from './components/Header.vue';
 import MainTop from './components/MainTop.vue';
 import MainBotton from './components/MainBotton.vue';
 import FooterTop from './components/FooterTop.vue';
-/*import FooterBotton from './components/FooterBotton.vue'*/
+import FooterBotton from './components/FooterBotton.vue'
 
 export default {
   name: 'App',
@@ -26,7 +26,7 @@ export default {
     MainTop,
     MainBotton,
     FooterTop,
-    /*FooterBotton*/
+    FooterBotton
   }
 }
 </script>
