@@ -10,62 +10,12 @@
 </template>
 
 <script>
+import nav from '@/data/ArrayNav.js';
 export default {
     name: 'Header',
     data() {
         return {
-            nav: [
-        {
-            text: 'characters',
-            url : '#',
-            position: false
-        },
-        {
-            text: 'comics',
-            url : '#',
-            position: true
-        },
-        {
-            text: 'movies',
-            url : '#',
-            position: false
-        },
-        {
-            text: 'tv',
-            url : '#',
-            position: false
-        },
-        {
-            text: 'games',
-            url : '#',
-            position: false
-        },
-        {
-            text: 'collectibles',
-            url : '#',
-            position: false
-        },
-        {
-            text: 'videos',
-            url : '#',
-            position: false
-        },
-        {
-            text: 'fans',
-            url : '#',
-            position: false
-        },
-        {
-            text: 'news',
-            url : '#',
-            position: false
-        },
-        {
-            text: 'shop',
-            url : '#',
-            position: false
-        }
-    ]
+            nav: nav
         }
     }
 }
@@ -78,7 +28,6 @@ header{
     display: $flex_primary;
     justify-content: space-around;
     align-items: center;
-    background-color: red;
 
     img{
         width: 70px;

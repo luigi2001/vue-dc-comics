@@ -2,8 +2,8 @@
   <div id="app">
     <Header/>
     <main>
-      <!--<MainTop/>-->
-      <!--<MainBotton/>-->
+      <MainTop/>
+      <MainBotton/>
     </main>
     <footer>
       <!--<FooterTop/>-->
@@ -14,17 +14,17 @@
 
 <script>
 import Header from './components/Header.vue';
-/*import MainTop from './components/MainTop.vue';*/
-/*import MainBotton from './components/MainBotton.vue';*/
+import MainTop from './components/MainTop.vue';
+import MainBotton from './components/MainBotton.vue';
 /*import FooterTop from './components/FooterTop.vue';*/
 /*import FooterBotton from './components/FooterBotton.vue'*/
 
 export default {
   name: 'App',
   components: {
-    Header
-    /*MainTop,*/
-    /*MainBotton,*/
+    Header,
+    MainTop,
+    MainBotton,
     /*FooterTop,*/
     /*FooterBotton*/
   }
